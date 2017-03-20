@@ -7,17 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A07F2421E7FA7610016C1BF /* loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A07F2411E7FA7610016C1BF /* loader.swift */; };
+		0A07F2441E7FA7720016C1BF /* loaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A07F2431E7FA7720016C1BF /* loaderView.xib */; };
+		0A9D34101E7C6888005F3A02 /* VenusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D340F1E7C6888005F3A02 /* VenusTableViewCell.swift */; };
+		0A9D34121E7D4B04005F3A02 /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D34111E7D4B04005F3A02 /* HelperMethods.swift */; };
 		0AB6E27D1E7C59CF00D2F634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6E2741E7C59CF00D2F634 /* AppDelegate.swift */; };
 		0AB6E27E1E7C59CF00D2F634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6E2751E7C59CF00D2F634 /* Assets.xcassets */; };
-		0AB6E27F1E7C59CF00D2F634 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6E2761E7C59CF00D2F634 /* Info.plist */; };
 		0AB6E2801E7C59CF00D2F634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6E2781E7C59CF00D2F634 /* LaunchScreen.storyboard */; };
 		0AB6E2811E7C59CF00D2F634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6E27A1E7C59CF00D2F634 /* Main.storyboard */; };
 		0AB6E2831E7C5B1000D2F634 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6E2821E7C5B1000D2F634 /* Venue.swift */; };
 		0AB6E2851E7C5B7800D2F634 /* VeneusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6E2841E7C5B7800D2F634 /* VeneusViewController.swift */; };
 		0AB6E2871E7C5B8E00D2F634 /* VenueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6E2861E7C5B8E00D2F634 /* VenueDetailViewController.swift */; };
+		0AB6E28B1E7C5F5400D2F634 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6E28A1E7C5F5400D2F634 /* Constants.swift */; };
+		0AB6E28D1E7C617000D2F634 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6E28C1E7C617000D2F634 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A07F2411E7FA7610016C1BF /* loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loader.swift; sourceTree = "<group>"; };
+		0A07F2431E7FA7720016C1BF /* loaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loaderView.xib; sourceTree = "<group>"; };
+		0A9D340F1E7C6888005F3A02 /* VenusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenusTableViewCell.swift; sourceTree = "<group>"; };
+		0A9D34111E7D4B04005F3A02 /* HelperMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
 		0AB6E25A1E7C57A000D2F634 /* nearByVenues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nearByVenues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB6E2741E7C59CF00D2F634 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AB6E2751E7C59CF00D2F634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,6 +36,8 @@
 		0AB6E2821E7C5B1000D2F634 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		0AB6E2841E7C5B7800D2F634 /* VeneusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeneusViewController.swift; sourceTree = "<group>"; };
 		0AB6E2861E7C5B8E00D2F634 /* VenueDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueDetailViewController.swift; sourceTree = "<group>"; };
+		0AB6E28A1E7C5F5400D2F634 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0AB6E28C1E7C617000D2F634 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				0AB6E2731E7C59CF00D2F634 /* System */,
+				0AB6E2891E7C5F3C00D2F634 /* Helper */,
 				0AB6E26F1E7C59CF00D2F634 /* Cell */,
 				0AB6E2721E7C59CF00D2F634 /* Model */,
 				0AB6E2771E7C59CF00D2F634 /* View */,
@@ -71,6 +83,7 @@
 		0AB6E26F1E7C59CF00D2F634 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				0A9D340F1E7C6888005F3A02 /* VenusTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -107,8 +120,20 @@
 			children = (
 				0AB6E2781E7C59CF00D2F634 /* LaunchScreen.storyboard */,
 				0AB6E27A1E7C59CF00D2F634 /* Main.storyboard */,
+				0A07F2431E7FA7720016C1BF /* loaderView.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0AB6E2891E7C5F3C00D2F634 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0AB6E28A1E7C5F5400D2F634 /* Constants.swift */,
+				0AB6E28C1E7C617000D2F634 /* APIService.swift */,
+				0A9D34111E7D4B04005F3A02 /* HelperMethods.swift */,
+				0A07F2411E7FA7610016C1BF /* loader.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,8 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB6E2801E7C59CF00D2F634 /* LaunchScreen.storyboard in Resources */,
-				0AB6E27F1E7C59CF00D2F634 /* Info.plist in Resources */,
 				0AB6E27E1E7C59CF00D2F634 /* Assets.xcassets in Resources */,
+				0A07F2441E7FA7720016C1BF /* loaderView.xib in Resources */,
 				0AB6E2811E7C59CF00D2F634 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,10 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB6E28B1E7C5F5400D2F634 /* Constants.swift in Sources */,
 				0AB6E27D1E7C59CF00D2F634 /* AppDelegate.swift in Sources */,
+				0A9D34121E7D4B04005F3A02 /* HelperMethods.swift in Sources */,
 				0AB6E2871E7C5B8E00D2F634 /* VenueDetailViewController.swift in Sources */,
 				0AB6E2831E7C5B1000D2F634 /* Venue.swift in Sources */,
+				0A07F2421E7FA7610016C1BF /* loader.swift in Sources */,
+				0AB6E28D1E7C617000D2F634 /* APIService.swift in Sources */,
 				0AB6E2851E7C5B7800D2F634 /* VeneusViewController.swift in Sources */,
+				0A9D34101E7C6888005F3A02 /* VenusTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +379,7 @@
 				0AB6E26E1E7C57A000D2F634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
